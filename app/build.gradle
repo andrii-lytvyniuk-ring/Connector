@@ -30,9 +30,9 @@ android {
         jvmTarget = '1.8'
     }
     dynamicFeatures = [
-            ':login_adapter',
-            ':dashboard_adapter',
-            ':settings_adapter'
+            ':Connector:login_adapter',
+            ':Connector:dashboard_adapter',
+            ':Connector:settings_adapter'
     ]
 }
 

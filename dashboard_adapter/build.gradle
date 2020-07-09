@@ -18,8 +18,8 @@ android {
 }
 
 dependencies {
-    implementation project(':app')
-    implementation files("$rootDir/remote-repository/dashboard-debug.aar")
+    implementation project(':Connector:app')
+    implementation project(':dashboard')
 
     implementation 'androidx.core:core-ktx:1.1.0'
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
