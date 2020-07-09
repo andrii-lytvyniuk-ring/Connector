@@ -39,7 +39,7 @@ dependencies {
     implementation files("$rootDir/remote-repository/legacy-app-debug.aar")
 
     //features
-    implementation files("$rootDir/remote-repository/dashboard-debug.aar")
+    implementation project(':dashboard')
     implementation files("$rootDir/remote-repository/login-debug.aar")
     implementation files("$rootDir/remote-repository/settings-debug.aar")
 
