@@ -29,16 +29,15 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-    dynamicFeatures = [
-            ':login_adapter',
-            ':dashboard_adapter',
-            ':settings_adapter'
-    ]
 }
 
 dependencies {
     implementation files("$rootDir/remote-repository/global-navigator-debug.aar")
     implementation files("$rootDir/remote-repository/legacy-app-debug.aar")
+
+    implementation files("$rootDir/remote-repository/dashboard-debug.aar")
+    implementation files("$rootDir/remote-repository/login-debug.aar")
+    implementation files("$rootDir/remote-repository/settings-debug.aar")
 
     implementation 'androidx.appcompat:appcompat:1.1.0'
 

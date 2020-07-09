@@ -1,6 +1,3 @@
 include 'app'
-include 'settings_adapter'
-include 'dashboard_adapter'
-include 'login_adapter'
 
 rootProject.name = "Connector"
