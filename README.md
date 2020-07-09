@@ -1,5 +1,8 @@
 # Connector
 This repository is a part of proposal of main app modularization.
+Sample application has 3 features: *dashboard*, *login* and *settings*.
+Also there is a core module which is *legacyapp* and 
+Each feature has 1 activity and *global-navigator* module which serves to navigate between features.
 
 Connector serves as a gradle project which gathers all artifacts produced by all modules of application.
 It doesn't have any code, only gradle files, where dependencies are defined.
