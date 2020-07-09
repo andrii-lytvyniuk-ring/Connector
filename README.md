@@ -1,5 +1,5 @@
 # Connector
-This repository is a part of proposal of main app modulariaztion.
+This repository is a part of proposal of main app modularization.
 
 Connector serves as a gradle project which gathers all artifacts produced by all modules of application.
 It doesn't have any code, only gradle files, where dependencies are defined.
